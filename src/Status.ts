@@ -14,4 +14,8 @@ interface Status {
     shouldNotify?: boolean,
 }
 
+// Aliases
+export type ValidationResult = Status;
+// export type 
+
 export default Status;

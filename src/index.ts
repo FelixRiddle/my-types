@@ -1,3 +1,7 @@
+// --- Lib ---
+import StatusWrapper from "./lib/StatusWrapper";
+
+// --- Types ---
 // User
 import DeleteUserResultType from "./server/user/DeleteUserResultType";
 // Authentication
@@ -23,6 +27,10 @@ import CompleteUserData from "./CompleteUserData";
 import DebugMessage from "./DebugMessage";
 import FieldStatusType from "./status/FieldStatusType";
 import Status from "./Status";
+
+export {
+    StatusWrapper,
+}
 
 export type {
     BackdoorConfirmEmailInputType,
