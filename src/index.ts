@@ -2,6 +2,10 @@
 import StatusWrapper from "./lib/StatusWrapper";
 
 // --- Types ---
+// Frontend
+import FieldType from "./input/FieldType";
+
+// Server
 // User
 import DeleteUserResultType from "./server/user/DeleteUserResultType";
 // Authentication
@@ -33,6 +37,8 @@ export {
 }
 
 export type {
+    FieldType,
+    
     BackdoorConfirmEmailInputType,
     BackdoorConfirmEmailResultType,
     CategoryType,
