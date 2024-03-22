@@ -13,6 +13,8 @@ import BackdoorConfirmEmailInputType from "./server/authentication/auth/Backdoor
 import BackdoorConfirmEmailResultType from "./server/authentication/auth/BackdoorConfirmEmailResultType";
 import DataResultType from "./server/authentication/user/DataResultType";
 import LoginGetJwtResultType from "./server/authentication/auth/LoginGetJwtResultType";
+import LoginInputType from "./server/authentication/auth/LoginInputType";
+import RegisterInputType from "./server/authentication/auth/RegisterInputType";
 // Debug
 import DebugPropertyImageUploadType from "./server/debug/DebugPropertyImageUploadType";
 // Property
@@ -48,11 +50,13 @@ export type {
     DebugPropertyImageUploadType,
     DeleteUserPropertyResultType,
     DeleteUserResultType,
+    LoginInputType,
     LoginGetJwtResultType,
     MyPropertiesPageResultType,
     PriceType,
     PropertyCompleteType,
     PropertyType,
+    RegisterInputType,
     
     CompleteUserData,
     DebugMessage,
