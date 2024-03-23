@@ -15,4 +15,7 @@ export default interface PropertyType {
     longitude: string,
     published: boolean,
     images?: Array<string>,
+    userId: number,
+    categoryId: number,
+    priceId: number,
 };

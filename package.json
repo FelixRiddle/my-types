@@ -1,6 +1,6 @@
 {
   "name": "felixriddle.my-types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -9,6 +9,7 @@
     "dist"
   ],
   "scripts": {
+    "start": "ts-node src/index.ts",
     "test": "ts-node src/cmd/index.ts --test",
     "build": "tsup"
   },
