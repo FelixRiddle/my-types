@@ -8,6 +8,7 @@ import FieldType from "./input/FieldType";
 // Server
 import AppServerType from "./server/AppServerType";
 import APP_NAMES from "./server/AppNames";
+import ServersLocation from "./server/ServersLocation";
 // User
 import DeleteUserResultType from "./server/user/DeleteUserResultType";
 // Authentication
@@ -43,6 +44,7 @@ export {
 export type {
     FieldType,
     
+    ServersLocation,
     APP_NAMES,
     AppServerType,
     BackdoorConfirmEmailInputType,
