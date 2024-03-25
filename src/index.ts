@@ -7,7 +7,7 @@ import FieldType from "./input/FieldType";
 
 // Server
 import AppServerType from "./server/AppServerType";
-import APP_NAMES from "./server/AppNames";
+import AppNames from "./server/AppNames";
 import ServersLocation from "./server/ServersLocation";
 // User
 import DeleteUserResultType from "./server/user/DeleteUserResultType";
@@ -44,9 +44,16 @@ export {
 export type {
     FieldType,
     
+    // Servers location
+    // This is a constant in 'configuration-mappings'
     ServersLocation,
-    APP_NAMES,
+    // App names
+    // These index AppServerType
+    AppNames,
+    // Server type
+    // This is the object that will be stored in a file to hold the servers location if it changed
     AppServerType,
+    
     BackdoorConfirmEmailInputType,
     BackdoorConfirmEmailResultType,
     CategoryType,
