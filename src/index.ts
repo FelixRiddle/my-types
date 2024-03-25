@@ -6,6 +6,7 @@ import StatusWrapper from "./lib/StatusWrapper";
 import FieldType from "./input/FieldType";
 
 // Server
+import AppServerType from "./server/AppServerType";
 // User
 import DeleteUserResultType from "./server/user/DeleteUserResultType";
 // Authentication
